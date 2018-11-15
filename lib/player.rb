@@ -7,12 +7,8 @@ class Player
     @hp = DEFAULT_HP
   end
 
-  def attack(player)
-    player.decrease
-  end
-
 # Private method??
-  def decrease
+  def receive_damage
     @hp -= 10
   end
 
